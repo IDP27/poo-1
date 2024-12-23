@@ -1,0 +1,23 @@
+class Cachorro(Animal):
+  
+    def falar(self):
+        print("O cachorro late.")
+
+
+class Gato(Animal):
+  
+    def falar(self):
+        print("O gato mia.")
+
+
+
+if __name__ == "__main__":
+   
+    animal = Animal()
+    cachorro = Cachorro()
+    gato = Gato()
+
+    
+    animal.falar()     
+    cachorro.falar()   
+    gato.falar()
